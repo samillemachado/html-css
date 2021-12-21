@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        header{
+            background-color: darkgrey;
+            padding: 10px;
+            margin: 10px auto 20px auto;
+            text-align: center;            
+        }
+
+        header > h1{
+            font-weight: 900       
+
+        }
+
+        nav{
+            background-color: lightsteelblue;
+            box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.253);          
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 50px;            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: darkslateblue;
+        }
+        main{
+            background-color: lightsteelblue;
+            padding: 10px;
+            margin: 10px auto 20px auto;
+            border-radius: 0px 20px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.253);
+        }
+        article > p {
+           text-align: justify;
+           text-indent: 30px;
+        }    
+        
+        article > h2{
+            text-align: center;
+        }
+        aside > p{
+            text-align: right;
+        }
+        footer{
+            background-color: darkgrey;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título do Site</h1>
+        <nav><a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos"> 
+        </section>
+        <section id=noticiasBR>
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, magnam in quisquam saepe eveniet officia quasi ad delectus, ducimus suscipit aliquam repellat similique unde ea debitis exercitationem magni consequatur a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestias earum illo consequuntur. Aliquam debitis ad voluptate consequatur facilis laudantium. Odio, ad non pariatur ratione quidem iure consectetur dignissimos qui?</p>
+                <aside>
+                    <p>Artigo escrito por Fulano de Tal  </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+    
+</body>
+</html>
